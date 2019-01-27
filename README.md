@@ -1,6 +1,6 @@
 # Static Assets for the Default StyleguideKit
 
-> This StyleguideKit is for Pattern Lab 2 and includes some upgrades that are not found in the original [pattern-lab/styleguide-kit-assets-default](https://github.com/pattern-lab/styleguide-kit-assets-default) repo. Use this package with [laurenhamel/styleguidekit-assets-default](https://github.com/laurenhamel/styleguidekit-assets-default) for improved code snippet highlighting.
+> This StyleguideKit is for Pattern Lab 2 and includes some upgrades that are not found in the original [pattern-lab/styleguide-kit-assets-default](https://github.com/pattern-lab/styleguide-kit-assets-default) repo. Use this package with [laurenhamel/plugin-node-tab](https://github.com/laurenhamel/plugin-node-tab) for improved code snippet highlighting.
 
 These static assets are meant to be used with the default [Mustache](https://github.com/pattern-lab/styleguidekit-mustache-default) and [Twig](https://github.com/pattern-lab/styleguidekit-twig-default) StyleguideKits. They control the look, feel, and functionality of the front-end of Pattern Lab PHP.
 
