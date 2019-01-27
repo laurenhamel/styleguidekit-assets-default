@@ -3,13 +3,41 @@
 
 # Static Assets for the Default StyleguideKit
 
+> This StyleguideKit is for Pattern Lab 2 and includes some upgrades that are not found in the original [pattern-lab/styleguide-kit-assets-default](https://github.com/pattern-lab/styleguide-kit-assets-default) repo. Use this package with (laurenhamel/styleguidekit-assets-default)[https://github.com/laurenhamel/styleguidekit-assets-default] for improved code snippet highlighting.
+
 These static assets are meant to be used with the default [Mustache](https://github.com/pattern-lab/styleguidekit-mustache-default) and [Twig](https://github.com/pattern-lab/styleguidekit-twig-default) StyleguideKits. They control the look, feel, and functionality of the front-end of Pattern Lab PHP.
 
 ## Installation
 
-Pattern Lab PHP uses [Composer](https://getcomposer.org/) to manage project dependencies. To install the default static assets run:
+Pattern Lab PHP uses [Composer](https://getcomposer.org/) to manage project dependencies. To install these default static assets run:
 
-    composer require pattern-lab/styleguidekit-assets-default
+```
+"repositories": [
+  {
+    "type": "package",
+    "package": {
+      "name": "laurenhamel/styleguidekit-assets-default",
+      "version": "3.5.3",
+      "source": {
+        "url": "git@github.com:laurenhamel/styleguidekit-assets-default.git",
+        "type": "git",
+        "reference": "master"
+      }
+    }
+  }
+],
+"require": {
+  "laurenhamel/styleguidekit-assets-default": "^3.5.3"
+}
+
+composer install
+```
+    
+Pattern Lab Node uses [npm](https://npmjs.org/) to manage project dependencies. To install these default static assets run:
+
+```
+npm install laurenhamel/styleguidekit-assets-default#master --save-dev
+```
 
 ## Development Requirements
 
