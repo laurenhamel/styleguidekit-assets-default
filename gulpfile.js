@@ -63,7 +63,8 @@ gulp.task('build:css-general', ['clean:css-patternlab'], function() {
 });
 
 gulp.task('build:css-patternlab', ['build:css-general'], function() {
-	return plugins.rubySass('src/sass/styleguide.scss', { style: 'expanded', "sourcemap=none": true })
+	return gulp.src('src/sass/styleguide.scss')
+        .pipe(plugins.dartSass({ outputStyle: 'expanded', sourceMap: false }).on('error', plugins.dartSass.logError))
 		.pipe(plugins.autoprefixer({browsers: ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'android 4']}, {map: false }))
 		.pipe(gulp.dest('dist/styleguide/css'))
 		.pipe(plugins.rename({suffix: '.min'}))
