@@ -1,6 +1,3 @@
-![license](https://img.shields.io/github/license/pattern-lab/styleguidekit-assets-default.svg)
-[![Packagist](https://img.shields.io/packagist/v/pattern-lab/styleguidekit-assets-default.svg)](https://packagist.org/packages/pattern-lab/styleguidekit-assets-default) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/frontend-viewer.svg)](https://gitter.im/pattern-lab/frontend-viewer)
-
 # Static Assets for the Default StyleguideKit
 
 > This StyleguideKit is for Pattern Lab 2 and includes some upgrades that are not found in the original [pattern-lab/styleguide-kit-assets-default](https://github.com/pattern-lab/styleguide-kit-assets-default) repo. Use this package with [laurenhamel/styleguidekit-assets-default](https://github.com/laurenhamel/styleguidekit-assets-default) for improved code snippet highlighting.
